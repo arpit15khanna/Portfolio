@@ -27,23 +27,23 @@ function changeImage()
 {
 	if (document.getElementById("slide-image").getAttribute('src') == "https://cdn.allwallpaper.in/wallpapers/3872x2592/16659/light-wall-lumiere-house-mur-3872x2592-wallpaper.jpg") 
 	{
-		document.getElementById("slide-image").src = "../img/virat.jpg";
+		document.getElementById("slide-image").src = "img/virat.jpg";
 		document.getElementById('slide-image-caption-title').innerHTML="Virat Kohli";
 		document.getElementById('slide-image-caption').innerHTML="Every match is not a Duty but an Opportunity";
 	}
-	else if (document.getElementById("slide-image").getAttribute('src') == "../img/virat.jpg") 
+	else if (document.getElementById("slide-image").getAttribute('src') == "img/virat.jpg") 
 	{
-		document.getElementById("slide-image").src = "../img/harry.jpg";
+		document.getElementById("slide-image").src = "img/harry.jpg";
 		document.getElementById('slide-image-caption-title').innerHTML="Death";
 		document.getElementById('slide-image-caption').innerHTML="Your choices define you,Not your ability";
 	}
-	else if (document.getElementById("slide-image").getAttribute('src') == "../img/harry.jpg") 
+	else if (document.getElementById("slide-image").getAttribute('src') == "img/harry.jpg") 
 	{
-		document.getElementById("slide-image").src = "../img/sherlock.jpg";
+		document.getElementById("slide-image").src = "img/sherlock.jpg";
 		document.getElementById('slide-image-caption-title').innerHTML="Sherlock";
 		document.getElementById('slide-image-caption').innerHTML="After eliminating the impossible, whatever remains, however improbable, must be the truth";
 	}
-	else if (document.getElementById("slide-image").getAttribute('src') == "../img/sherlock.jpg") 
+	else if (document.getElementById("slide-image").getAttribute('src') == "img/sherlock.jpg") 
 	{
 		document.getElementById("slide-image").src = "https://wallpapercave.com/wp/3vZjpA5.jpg";
 		document.getElementById('slide-image-caption-title').innerHTML="";
@@ -165,7 +165,7 @@ function dispof(ele)
 // 	{
 // 		var x=document.getElementsByClassName("interests");
 
-// 		x[0].style.backgroundImage="url('../img/backtest.jpg')";
+// 		x[0].style.backgroundImage="url('img/backtest.jpg')";
 // 		x[0].style.backgroundPosition="0% 0%";
 
 // 	}
